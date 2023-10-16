@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+
+<html>
+ <head>
+
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+<title>Gaming Website Page Easy Tutorials</title> 
+ </head>
+ <body>
+
+<div class="container">
+<div class="navbar">
+<img src="" class="logo">
+<nav>
+<ul>
+
+<li><a href=""><h2>game c</h2></a></li>
+<li><a href=""><h2>vr acceser</h2></a></li>
+<li><a href="https://instagram.com/ritesh____m?igshid=OGQ5ZDc2ODk2ZA=="><h2>media</h2></a></li>
+<li><a href=""><h2>others</h2></a></li>
+</ul>
+ </nav> 
+<img src="" class="menu-icon">
+
+
+</div>
+<div class="row">
+<div class="col-1">
+<div class="name">ritesh mahabale</div>
+<h2>RS4e v2<br> Dualshock 4</h2>
+<h3>wireless controller</h3>
+<p>(compatible/generic)</p><br>
+<h2>$50.32</h2>
+<button type="button">Buy now
+</button>
+<br>
+<hr>
+
+
+</div>
+<div class="col-2">
+<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSYSBtSJYntuen-zSAMziwBBXrAKbIyBqjzsA&usqp=CAU"class="img">
+<div class="nav ul"></div>
+<div class="ul"></div>
+</div>
+</div>
+
+<div class="box">
+   <h1 text-color="red" align="center"></h1>
+  </div>
+<style>
+*{
+margin: 0;
+padding: 0;
+font-family: sans-serif;
+}
+
+
+.box{
+position: absolute;
+  top: 10%;
+  left: 3%;
+  transform: translate(-30%, -50%);
+  color: pink;
+  cursor: pointer;
+  text-transform:capitalize;
+  width: 90px;
+  height: 90px;
+  background-color: rgb(54,18,153);
+  transition: all 0.5s ease-in-out;
+  border-radius: 50%;
+
+}
+.box:hover {
+  transform: scale(1.2);
+}
+
+@keyframes move {
+  0% {
+    transform: translateX(0);
+  }
+  50% {
+    transform: translateX(100px);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+.box {
+  animation: move 2s infinite;
+}
+ul{
+background:rgb(30,56,59);
+height:70px;
+width:900px;
+pposition:left;
+}
+container{
+width: 100%;
+min-height: 100vh;
+padding-left: 8%;
+padding-right: 8%;
+box-sizing: border-box;
+overflow: hidden;
+}
+
+.navbar{
+width: 100%;
+display: flex;
+align-items: center;
+}
+
+.logo{
+width: 5px;
+cursor: pointer;
+margin: 30px 0;
+}
+
+.menu-icon{
+width: 25px;
+cursor: pointer;
+}
+nav{
+  flex:1;
+  flex-align:right;
+}
+
+nav ul li{
+list-style:none;
+display: inline-block;
+margin-right: 30px;
+}
+
+nav ul li a{
+text-decoration:none;
+color: white;
+font-size: 14px;
+}
+
+nav ul li a:hover{
+color: #ff5ea2;
+}
+
+.row{
+display: flex;
+justify-content: space-between;
+align-items:center;
+margin: 100px 0;
+}
+.col-1{
+flex-basis: 40%;
+position: relative;
+margin-left: 50px;
+}
+.col-1 h2{
+font-size: 54px;
+}
+.col-1 h3{
+font-size: 30px;
+color: #707070;
+font-weight:100;
+margin:20px 0 10px
+}
+
+.col-1 p{
+font-size: 16px;
+color: #b7b7b7;
+font-weight:100;
+}
+.col-1 h4{
+margin: 30px 0:
+font-size: 20px;
+}
+button{
+width:200px;
+border:0;
+padding: 12px 10px;
+outline: none;
+color: blue;
+backgrround: red;
+border-radius: 6px;
+cursor: pointer;
+transition: width 0.5s;
+
+}
+button:hover{
+ width: 160px;
+ display: flex;
+ align-items: center;
+ justify-content: space-between;
+}
+
+.col-1::after{
+content:'';
+width: 10px;
+height: 57%;
+background: rgb(240,7,162);
+position: absolute;
+left: -40px;
+top: 8px;
+
+}
+.col-2{
+position: relative;
+flex-basis: 60%;
+display: flex;
+a;align-items: center;
+}
+
+.img{
+position: absolute;
+  top: 40%;
+  left: 0%;
+width: 10%;
+border-radius:51%;
+cursor: pointer;
+}
+
+
+.name {
+  font-size: 1.7em;
+  color: #3498db;
+  text-align: left;
+  animation: bounce 0.5s infinite alternate;
+}
+
+@keyframes bounce {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(-20px);
+  }
+}
+
+box{
+position: absolute;
+right: 0;
+top:0;
+background-color: red;
+border-radius: 20px 0 0 20px;
+height: 100;
+width:80%;
+z-index:-1;
+transform:translatex(150px);
+}
+h1{
+color:rgb(3,252,252);
+}
+@media (max-width:700px){
+
+nav ul li{
+display: block;
+margin-top: 10px;
+margin-bottom: 10px;
+}
+}
+</style>
+ </body>
+ </html>
